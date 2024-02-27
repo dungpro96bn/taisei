@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+@import "../_vars.scss";
+@import "../_setting.scss";
+@import "../_placeHolder.scss";
+
+@font-face {
+    font-family: 'Gadugi';
+    src: url(#{$fontsNew}gadugi.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gadugi';
+    src: url(#{$fontsNew}gadugib.ttf) format('truetype');
+    font-weight: bold;
+}
+
+
+.ttl-en{
+    font-family: 'Gadugi';
+}
+
+.f-pt{
+    font-family: futura-pt, sans-serif;
+}
+
+.sp-br{
+    display: block;
+
+    @include minWidthXs{
+        display: none;
+    }
+}
+
+.pc-br{
+    @include xs{
+        display: none;
+    }
+}
+
+.btnLink{
+    .btn-link{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        border: 2px solid #FF6337;
+        border-radius: 50px;
+        background: #FF6337;
+        transition: .3s;
+        color: #fff;
+        margin: auto;
+        max-width: 444px;
+        font-size: 24px;
+        line-height: 36px;
+
+        &:after{
+            content: "";
+            position: relative;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='17.492' viewBox='0 0 10 17.492'%3E%3Cpath id='Icon_ionic-ios-arrow-back' data-name='Icon ionic-ios-arrow-back' d='M14.265,14.937l6.618-6.613a1.25,1.25,0,0,0-1.77-1.765l-7.5,7.493a1.248,1.248,0,0,0-.036,1.724l7.53,7.545a1.25,1.25,0,0,0,1.77-1.765Z' transform='translate(21.251 23.685) rotate(180)' fill='%23fff'/%3E%3C/svg%3E%0A");
+            width: 10px;
+            height: 17px;
+            background-size: 100%;
+            margin-left: 30px;
+            bottom: -2px;
+            transition: .3s;
+        }
+
+        &:hover{
+            background: #fff;
+            color: #FF6337;
+
+            &:after{
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='17.492' viewBox='0 0 10 17.492'%3E%3Cpath id='Icon_ionic-ios-arrow-back' data-name='Icon ionic-ios-arrow-back' d='M14.265,14.937l6.618-6.613a1.25,1.25,0,0,0-1.77-1.765l-7.5,7.493a1.248,1.248,0,0,0-.036,1.724l7.53,7.545a1.25,1.25,0,0,0,1.77-1.765Z' transform='translate(21.251 23.685) rotate(180)' fill='%23ff6337'/%3E%3C/svg%3E%0A");
+            }
+        }
+
+        @include xs{
+            height: 45px;
+            font-size: 16px;
+            line-height: 24px;
+            max-width: 268px;
+
+            &:after{
+                width: 6px;
+                height: 12px;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+.PConly{
+    #headerMenu{
+        .headerLogo{
+            margin: 0;
+        }
+
+        .navItemListInner{
+            .navItem{
+                &:nth-child(4){
+                    margin-right: 0;
+                    margin-left: 41px;
+
+                    .js-clickitem{
+                        background: #2B509D;
+                        display: flex;
+                        align-items: center;
+                        height: 48px;
+                        justify-content: center;
+                        width: 120px;
+
+                        .letterTop{
+                            color: #fff;
+                        }
+
+                        &:hover{
+                            opacity: .7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.header-entry {
+
+    .heading-block {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+
+        &:after{
+            content: "";
+            position: absolute;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='6' viewBox='0 0 48 6'%3E%3Cline id='Line_81' data-name='Line 81' x2='42' transform='translate(3 3)' fill='none' stroke='%23ff6337' stroke-linecap='round' stroke-width='6' stroke-dasharray='0.5 20'/%3E%3C/svg%3E%0A");
+            width: 48px;
+            height: 6px;
+            background-size: 100%;
+            bottom: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            @include xs{
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='74.12' height='9.12' viewBox='0 0 74.12 9.12'%3E%3Cline id='Line_81' data-name='Line 81' x2='66' y2='1' transform='translate(4.06 4.06)' fill='none' stroke='%23ff6337' stroke-linecap='round' stroke-width='8' stroke-dasharray='1 31'/%3E%3C/svg%3E%0A");
+                width: 37px;
+                height: 4.5px;
+                bottom: -7px;
+            }
+        }
+
+        .ttl-ja {
+            font-size: 48px;
+            line-height: 71px;
+            color: #0D0D0D;
+            font-weight: bold;
+            letter-spacing: 2.5px;
+
+            @include xs{
+                font-size: 28px;
+                line-height: 42px;
+                letter-spacing: 1.4px;
+            }
+        }
+
+        &.heading-center {
+            text-align: center;
+            display: block;
+        }
+
+        @include xs{
+            justify-content: center;
+            text-align: center;
+
+            span{
+                display: block;
+                width: 100%;
+                padding-top: 0 !important;
+            }
+        }
+
+    }
+
+    .subTitle {
+        font-size: 20px;
+        line-height: 30px;
+        color: #222222;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 59px;
+
+        @include xs{
+            font-size: 16px;
+            line-height: 28px;
+            margin-top: 27px;
+        }
+    }
+}
+
+
+
+

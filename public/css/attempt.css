@@ -1,0 +1,573 @@
+/*------------------------------------------------------------
+common
+------------------------------------------------------------*/
+
+#attempt {
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 400;
+    color: #222222;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    font-family: 'Noto Sans JP', 'Century Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック体, YuGothic, "Yu Gothic Medium", 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+}
+
+#attempt * {
+    box-sizing: border-box;
+}
+
+#attempt a {
+    transition: opacity .3s;
+}
+
+#attempt a[href^="tel:"] {
+    display: inline-block;
+    transition: none;
+}
+
+#attempt a:hover {
+    text-decoration: none;
+}
+
+#attempt a:focus-visible {
+    outline: none;
+}
+
+#attempt img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.text:last-of-type {
+    margin-bottom: 0;
+}
+
+#attempt .sp-br{
+    display: none;
+}
+
+#attempt .inner {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/*main-banner*/
+#attempt .main-banner{
+    height: 280px;
+    background: #003180;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /*background-image: url("../images/contentBox/attempt/attempt_main_bg_pc.png");*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    z-index: 2;
+}
+#attempt .main-banner:before{
+    content: "";
+    position: absolute;
+    background-image: url("../images/contentBox/attempt/heading_banner_icon01_pc.png");
+    height: 100%;
+    width: 26%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: right top;
+    z-index: -1;
+    max-width: 500px;
+}
+#attempt .main-banner:after{
+    content: "";
+    position: absolute;
+    background-image: url("../images/contentBox/attempt/heading_banner_icon02_pc.png");
+    height: 100%;
+    width: 22.14%;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    background-position: left bottom;
+    z-index: -1;
+    max-width: 425px;
+}
+#attempt .main-banner .headingMain{
+    font-size: 48px;
+    line-height: 71px;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: 2.4px;
+    padding-bottom: 9px;
+    z-index: 2;
+}
+#attempt .main-banner .headingMain:before{
+    content: "";
+    position: absolute;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='6' viewBox='0 0 48 6'%3E%3Cline id='Line_81' data-name='Line 81' x2='42' transform='translate(3 3)' fill='none' stroke='%23ff6337' stroke-linecap='round' stroke-width='6' stroke-dasharray='0.5 20'/%3E%3C/svg%3E%0A");
+    width: 48px;
+    height: 6px;
+    background-size: 100%;
+    bottom: -3px;
+    left: 0;
+}
+
+
+
+/*attempt-tab*/
+#attempt .attempt-tab{
+    padding-top: 150px;
+    padding-bottom: 104px;
+}
+#attempt .attempt-tab .attemptList-tab{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    padding: 0 10px;
+}
+#attempt .attempt-tab .attemptItem-tab picture{
+    display: block;
+    overflow: hidden;
+}
+#attempt .attempt-tab .attemptItem-tab picture img{
+    transition: .3s;
+    width: 100%;
+}
+#attempt .attempt-tab .attemptItem-tab .attemptTitle {
+    background: #003180;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+#attempt .attempt-tab .attemptItem-tab .attemptTitle .ttl{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+#attempt .attempt-tab .attemptItem-tab{
+    position: relative;
+}
+#attempt .attempt-tab .attemptItem-tab:after{
+    content: "";
+    position: absolute;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='14' viewBox='0 0 28 14'%3E%3Cpath id='Polygon_6' data-name='Polygon 6' d='M14,0,28,14H0Z' transform='translate(28 14) rotate(180)' fill='%23ff6337'/%3E%3C/svg%3E%0A");
+    width: 28px;
+    height: 14px;
+    background-size: 100%;
+    bottom: -34px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .3s;
+}
+#attempt .attempt-tab .attemptItem-tab:hover{
+    opacity: .8;
+}
+#attempt .attempt-tab .attemptItem-tab:hover picture img{
+    transform: scale(1.1);
+}
+#attempt .attempt-tab .attemptItem-tab:hover:after{
+    bottom: -44px;
+}
+
+
+
+/*attemptContent*/
+#attempt .attemptContent{
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+#attempt .attemptContent .heading-block {
+    position: relative;
+    background: #335A99;
+    color: #fff;
+    font-size: 32px;
+    line-height: 47px;
+    padding: 16.5px 50px;
+    margin-bottom: 80px;
+    z-index: 2;
+    letter-spacing: 1.4px;
+}
+#attempt .attemptContent .heading-block:before {
+    content: "";
+    position: absolute;
+    background-image: url("../images/contentBox/attempt/attempt_title_icon01_pc.png");
+    height: 100%;
+    width: 175px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    z-index: -1;
+}
+#attempt .attemptContent .heading-block:after {
+    content: "";
+    position: absolute;
+    background-image: url("../images/contentBox/attempt/attempt_title_icon02_pc.png");
+    height: 100%;
+    width: 175px;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+#attempt .attemptContent .attemptContent-box{
+    border: 4px solid #335A99;
+    margin-right: 10px;
+    box-shadow: 10px 10px #335A99;
+    margin-bottom: 90px;
+}
+#attempt .attemptContent .item-textCheck{
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 27px;
+}
+#attempt .attemptContent .item-textCheck:last-child{
+    margin-bottom: 0;
+}
+#attempt .attemptContent .item-textCheck:before{
+    content: "";
+    position: absolute;
+    background-image: url("data:image/svg+xml,%3Csvg id='チェックボックス' xmlns='http://www.w3.org/2000/svg' width='40' height='32' viewBox='0 0 40 32'%3E%3Cg id='Rectangle_2446' data-name='Rectangle 2446' fill='%23fff' stroke='%23003180' stroke-width='4'%3E%3Crect width='32' height='32' stroke='none'/%3E%3Crect x='2' y='2' width='28' height='28' fill='none'/%3E%3C/g%3E%3Cpath id='Icon_awesome-check' data-name='Icon awesome-check' d='M10.869,28.106.469,17.646a1.616,1.616,0,0,1,0-2.276l2.263-2.276a1.593,1.593,0,0,1,2.263,0L12,20.141,27.006,5.049a1.594,1.594,0,0,1,2.263,0l2.263,2.276a1.616,1.616,0,0,1,0,2.276l-18.4,18.506A1.594,1.594,0,0,1,10.869,28.106Z' transform='translate(8 -1.577)' fill='%23ff6337'/%3E%3C/svg%3E%0A");
+    width: 40px;
+    height: 32px;
+    background-size: 100%;
+    top: 2px;
+    left: 0;
+}
+#attempt .attemptContent .item-textCheck p{
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: bold;
+}
+#attempt .attemptContent .list-textCheck{
+    margin-bottom: 38px;
+}
+
+
+#attempt .attemptContent .attemptContent-box .content{
+    padding: 75px 76px 76px;
+}
+#attempt .attemptContent .imageList{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+}
+#attempt .attemptContent .imageItem picture{
+    display: block;
+    margin-bottom: 12px;
+}
+#attempt .attemptContent .imageItem img{
+    width: 100%;
+}
+#attempt .attemptContent .imageItem .ttl{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+/*message-boss*/
+#attempt .attemptContent .message-boss{
+    background: #F0F3F9;
+    padding: 50px 70px 47px 80px;
+}
+#attempt .attemptContent .message-boss .title{
+    font-size: 32px;
+    line-height: 47px;
+    color: #003180;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+#attempt .attemptContent .message-boss .text{
+    font-size: 18px;
+    line-height: 32px;
+}
+#attempt .attemptContent .message-boss .messageBox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#attempt .attemptContent .message-boss .messageInfo{
+    width: 70%;
+    padding-right: 35px;
+}
+#attempt .attemptContent .message-boss .messageImage{
+    width: 30%;
+    padding-left: 5px;
+    margin-top: 0px;
+    padding-right: 10px;
+}
+#attempt .attemptContent .message-boss .messageImage img{
+    width: 100%;
+}
+#attempt .attemptContent .message-boss .text-note{
+    font-size: 18px;
+    line-height: 32px;
+    text-align: right;
+    padding-top: 8px;
+}
+
+
+#attempt .attemptContent .attemptContent-box .content.item-flex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 75px 40px 99px 76px;
+}
+#attempt .attemptContent .attemptContent-box .content.item-flex .imageList{
+    display: block;
+    width: 34%;
+    padding-right: 2px;
+    margin: 0;
+}
+#attempt .attemptContent .attemptContent-box .content.item-flex .list-textCheck{
+    width: 66%;
+    padding-left: 47px;
+    margin: 0;
+}
+#attempt .attemptContent .content.item-flex .item-textCheck{
+    margin-bottom: 36px;
+}
+#attempt .attemptContent .content.item-flex .item-textCheck:last-child{
+    margin-bottom: 0;
+}
+
+#attempt #attempt-04.attemptContent{
+    padding-bottom: 210px;
+}
+#attempt .attemptContent .item-textCheck p span{
+    background-image: -webkit-linear-gradient(left, #F8DEA7 100%, #F8DEA7 100%);
+    background-position: 200% 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+    #attempt .pc-br{
+        display: none;
+    }
+    #attempt .sp-br{
+        display: block;
+    }
+    #attempt .inner {
+        padding: 0 12px;
+    }
+
+
+
+
+    /*main-banner*/
+    #attempt .main-banner{
+        height: 100px;
+    }
+    #attempt .main-banner:before{
+        background-image: url("../images/contentBox/attempt/heading_banner_icon01_sp.png");
+        width: 100px;
+    }
+    #attempt .main-banner:after{
+        background-image: url("../images/contentBox/attempt/heading_banner_icon02_sp.png");
+        width: 100px;
+    }
+    #attempt .main-banner .headingMain{
+        font-size: 23px;
+        line-height: 34px;
+        padding-left: 8px;
+        letter-spacing: 1.2px;
+        padding-bottom: 4px;
+    }
+    #attempt .main-banner .headingMain:before{
+        width: 24px;
+        height: 3px;
+        background-size: 100%;
+        bottom: -2px;
+        left: 9px;
+    }
+
+
+
+
+    /*attempt-tab*/
+    #attempt .attempt-tab {
+        padding-top: 75px;
+        padding-bottom: 24px;
+    }
+    #attempt .attempt-tab .attemptList-tab{
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 11px;
+        padding: 0;
+        row-gap: 44px;
+    }
+    #attempt .attempt-tab .attemptItem-tab .attemptTitle .ttl {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 1px;
+    }
+    #attempt .attempt-tab .attemptItem-tab .attemptTitle{
+        height: 75px;
+    }
+    #attempt .attempt-tab .attemptItem-tab:after{
+        width: 18px;
+        height: 9px;
+        bottom: -19px;
+    }
+    #attempt .attempt-tab .attemptItem-tab:hover:after{
+        bottom: -29px;
+    }
+
+
+
+    /*attemptContent*/
+    #attempt .attemptContent{
+        padding-top: 70px;
+        padding-bottom: 4px;
+    }
+
+    #attempt .attemptContent .heading-block{
+        font-size: 20px;
+        line-height: 28px;
+        padding: 17px 25px;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        min-height: 90px;
+        display: flex;
+        align-items: center;
+    }
+    #attempt .attemptContent .heading-block:before{
+        background-image: url("../images/contentBox/attempt/attempt_title_icon01_sp.png");
+        height: 100%;
+        width: 65px;
+    }
+    #attempt .attemptContent .heading-block:after{
+        background-image: url("../images/contentBox/attempt/attempt_title_icon02_sp.png");
+        height: 100%;
+        width: 65px;
+    }
+    #attempt .attemptContent .attemptContent-box {
+        border: 2px solid #335A99;
+        margin-right: 1px;
+        box-shadow: 6px 6px #335A99;
+        margin-bottom: 46px;
+    }
+    #attempt .attemptContent .item-textCheck p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    #attempt .attemptContent .item-textCheck:before{
+        width: 20px;
+        height: 16px;
+        top: 6px;
+    }
+    #attempt .attemptContent .item-textCheck{
+        padding-left: 30px;
+        margin-bottom: 15px;
+    }
+    #attempt .attemptContent .attemptContent-box .content {
+        padding: 20px 24px 19px;
+    }
+    #attempt .attemptContent .list-textCheck{
+        margin-right: -10px;
+        margin-bottom: 23px;
+    }
+    #attempt .attemptContent .item-textCheck p span{
+        background-position: 200% 15px;
+    }
+    #attempt .attemptContent .imageList {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 0;
+        row-gap: 22px;
+    }
+    #attempt .attemptContent .imageItem .ttl {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    #attempt .attemptContent .imageItem picture {
+        margin-bottom: 4px;
+    }
+
+
+    #attempt .attemptContent .message-boss .title{
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        margin-bottom: 14px;
+    }
+    #attempt .attemptContent .message-boss .text {
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+    #attempt .attemptContent .message-boss{
+        padding: 25px 30px 25px 25px;
+    }
+    #attempt .attemptContent .message-boss .messageInfo {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 22px;
+    }
+    #attempt .attemptContent .message-boss .messageImage {
+        width: 66%;
+        margin: auto;
+        padding: 0;
+    }
+
+
+    #attempt .attemptContent .attemptContent-box .content.item-flex .imageList {
+        width: 100%;
+        padding-right: 0;
+        margin: 0 auto 20px;
+    }
+    #attempt .attemptContent .attemptContent-box .content.item-flex .list-textCheck {
+        width: calc(100% + 10px);
+        padding-left: 0;
+        margin-right: -10px;
+    }
+    #attempt .attemptContent .attemptContent-box .content.item-flex{
+        padding: 23px 24px 19px;
+    }
+    #attempt .attemptContent .content.item-flex .item-textCheck {
+        margin-bottom: 10px;
+    }
+    #attempt .attemptContent .message-boss .text-note {
+        font-size: 16px;
+        line-height: 28px;
+        text-align: right;
+        padding-top: 0px;
+        margin-right: -4px;
+        font-weight: 500;
+        margin-top: -5px;
+    }
+    #attempt #attempt-04.attemptContent {
+        padding-bottom: 75px;
+    }
+
+
+
+
+
+
+}
+

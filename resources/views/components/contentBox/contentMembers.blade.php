@@ -1,13 +1,13 @@
 <div id="top-attempt">
     <div class="inner">
         <div class="header-entry" data-aos="fade-up">
-            <h2 class="heading-block heading-center">
+            <h2 class="heading-block heading-center js-fadein">
                 <span class="ttl-ja">大成建設の取り組み</span>
             </h2>
-            <p class="subTitle">当社では、<br class="sp-br"/>障がいがあっても少しでも働きやすいように様々な取り組みをしています。</p>
+            <p class="subTitle js-fadein">当社では、<br class="sp-br"/>障がいがあっても少しでも働きやすいように様々な取り組みをしています。</p>
         </div>
         <div class="attempt-list">
-            <div class="attempt-item">
+            <div class="attempt-item js-fadein">
                 <picture>
                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top_image05_sp@2x.png 2x')}}">
                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top_image05_pc@2x.png 2x')}}">
@@ -18,7 +18,7 @@
                     <p class="text">音声文字化ツールの法人契約等をはじめとした各種情報保障を行っています。</p>
                 </div>
             </div>
-            <div class="attempt-item">
+            <div class="attempt-item js-fadein">
                 <picture>
                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top_image06_sp@2x.png 2x')}}">
                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top_image06_pc@2x.png 2x')}}">
@@ -29,7 +29,7 @@
                     <p class="text">就業中に車椅子を使用するかどうかなど、<br class="sp-br"/>しっかりお話をお聞きします。</p>
                 </div>
             </div>
-            <div class="attempt-item">
+            <div class="attempt-item js-fadein">
                 <picture>
                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top_image07_sp@2x.png 2x')}}">
                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top_image07_pc@2x.png 2x')}}">
@@ -40,7 +40,7 @@
                     <p class="text">面接時に、得意なこと・苦手なことをお聞きしていきます。</p>
                 </div>
             </div>
-            <div class="attempt-item">
+            <div class="attempt-item js-fadein">
                 <picture>
                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top_image08_sp@2x.png 2x')}}">
                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top_image08_pc@2x.png 2x')}}">
@@ -52,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <div class="btnLink">
+        <div class="btnLink js-fadein">
             <a class="btn-link" href="{{route('attempt')}}">大成建設の取り組みを見る</a>
         </div>
     </div>
@@ -60,7 +60,7 @@
 
 <div id="the-valuabe">
     <div class="inner">
-        <div class="the-valuabeBox">
+        <div class="the-valuabeBox js-fadein">
             <div class="imageContent">
                 <picture>
                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top_image09_sp@2x.png 2x')}}">

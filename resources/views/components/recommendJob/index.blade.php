@@ -1,11 +1,11 @@
 <section id="recommendJob" class="recommendJob">
     <div class="recommendJobInner">
         <div class="header-entry" data-aos="fade-up">
-            <h2 class="heading-block heading-center">
+            <h2 class="heading-block heading-center js-fadein">
                 <span class="ttl-ja">新着の求人情報</span>
             </h2>
         </div>
-        <div class="recommendJobBox">
+        <div class="recommendJobBox js-fadein">
 
             <div id="recommendJobSlide" class="recommendJobSlide swiper-recommendJobSlide">
 

@@ -290,6 +290,9 @@ common
 #interview .interviewContent .interviewItem-qa{
     margin-bottom: 78px;
 }
+#interview .interviewContent .interviewItem-qa picture{
+    display: block;
+}
 #interview .interviewContent .interviewItem-qa .textInfo .image{
     display: block;
     padding-top: 14px;

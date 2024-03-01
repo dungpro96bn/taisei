@@ -42,7 +42,7 @@
     @if($fEntSearchAxisData->isSuccessGetAxis && $isNothingAxis === false)
     <section id="searchBox">
         <div class="searchBoxWrapper">
-            <div class="searchBoxBg">
+            <div class="searchBoxBg js-fadein">
                 <div class="header-entry" data-aos="fade-up">
                     <h2 class="heading-block heading-center">
                         <span class="ttl-ja">求人検索</span>
@@ -51,7 +51,7 @@
 {{--                <x-quickSearch :fEntSearchAxisData="$fEntSearchAxisData" :fEntConfig="$fEntConfig" />--}}
             </div>
 
-            <div class="searchBoxBody">
+            <div class="searchBoxBody js-fadein">
                 <div class="searchBoxBodyWrapper">
                     <div class="searchSelect">
                         <div class="searchSelectWrapper">

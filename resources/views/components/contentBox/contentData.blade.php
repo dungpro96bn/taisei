@@ -1,13 +1,13 @@
 <div id="top-interview">
     <div class="inner">
         <div class="header-entry" data-aos="fade-up">
-            <h2 class="heading-block heading-center">
+            <h2 class="heading-block heading-center js-fadein">
                 <span class="ttl-ja">社員インタビュー</span>
             </h2>
-            <p class="subTitle">皆さんの先輩の働き方や志望動機などを<br class="sp-br"/>ご紹介します</p>
+            <p class="subTitle js-fadein">皆さんの先輩の働き方や志望動機などを<br class="sp-br"/>ご紹介します</p>
         </div>
         <div class="interview-list">
-            <div class="interview-item">
+            <div class="interview-item js-fadein">
                 <a href="{{route('interview')}}/#interview-01">
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top_image03_sp.png 2x')}}">
@@ -20,7 +20,7 @@
                     </div>
                 </a>
             </div>
-            <div class="interview-item">
+            <div class="interview-item js-fadein">
                 <a href="{{route('interview')}}/#interview-02">
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top_image04_sp.png 2x')}}">
@@ -34,7 +34,7 @@
                 </a>
             </div>
         </div>
-        <div class="btnLink">
+        <div class="btnLink js-fadein">
             <a class="btn-link" href="{{route('interview')}}">社員インタビューを見る</a>
         </div>
     </div>

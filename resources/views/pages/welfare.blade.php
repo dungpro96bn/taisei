@@ -29,8 +29,8 @@
 
                 <div class="recruitment-example">
                     <div class="inner">
-                        <h2 class="heading-block"><span>採用事例</span></h2>
-                        <div class="description">
+                        <h2 class="heading-block js-fadein"><span>採用事例</span></h2>
+                        <div class="description js-fadein">
                             <p class="text">大成建設では、<br/>
                                 視覚・聴覚・音声言語・上肢・下肢<br class="sp-br"/>・体幹・<br class="pc-br"/>
                                 心臓・じん臓・ぼうこう<br class="sp-br"/>・直腸・小腸・肝臓・精神・発達など<br/>
@@ -39,7 +39,7 @@
                         </div>
 
                         <ul class="recruitmentList">
-                            <li class="recruitmentItem">
+                            <li class="recruitmentItem js-fadein">
                                 <div class="recruitment-inner">
                                     <span class="number">01</span>
                                     <dl>
@@ -56,7 +56,7 @@
                                     </dl>
                                 </div>
                             </li>
-                            <li class="recruitmentItem">
+                            <li class="recruitmentItem js-fadein">
                                 <div class="recruitment-inner">
                                     <span class="number">02</span>
                                     <dl>
@@ -73,7 +73,7 @@
                                     </dl>
                                 </div>
                             </li>
-                            <li class="recruitmentItem">
+                            <li class="recruitmentItem js-fadein">
                                 <div class="recruitment-inner">
                                     <span class="number">03</span>
                                     <dl>
@@ -90,7 +90,7 @@
                                     </dl>
                                 </div>
                             </li>
-                            <li class="recruitmentItem">
+                            <li class="recruitmentItem js-fadein">
                                 <div class="recruitment-inner">
                                     <span class="number">04</span>
                                     <dl>
@@ -107,7 +107,7 @@
                                     </dl>
                                 </div>
                             </li>
-                            <li class="recruitmentItem">
+                            <li class="recruitmentItem js-fadein">
                                 <div class="recruitment-inner">
                                     <span class="number">05</span>
                                     <dl>
@@ -124,7 +124,7 @@
                                     </dl>
                                 </div>
                             </li>
-                            <li class="recruitmentItem">
+                            <li class="recruitmentItem js-fadein">
                                 <div class="recruitment-inner">
                                     <span class="number">06</span>
                                     <dl>
@@ -148,10 +148,10 @@
 
                 <div class="data">
                     <div class="inner">
-                        <h2 class="heading-block"><span>数字で見る大成建設の障がい者採用</span></h2>
+                        <h2 class="heading-block js-fadein"><span>数字で見る大成建設の障がい者採用</span></h2>
                         <div class="data-content">
                             <ul class="dataList">
-                                <li class="dataItem item01">
+                                <li class="dataItem item01 js-fadein">
                                     <div class="dataItem-info">
                                         <h2 class="title">担当業務<br/>（主に内勤）</h2>
                                         <div class="dataInfo">
@@ -172,7 +172,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="dataItem item02">
+                                <li class="dataItem item02 js-fadein">
                                     <div class="dataItem-info">
                                         <h2 class="title">障がい区分</h2>
                                         <div class="dataInfo">
@@ -198,7 +198,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="dataItem item03">
+                                <li class="dataItem item03 js-fadein">
                                     <div class="dataItem-info">
                                         <h2 class="title">勤続年数</h2>
                                         <div class="dataInfo">
@@ -231,9 +231,9 @@
 
                 <div class="selection-process">
                     <div class="inner">
-                        <h2 class="heading-block"><span>選考の流れ</span></h2>
+                        <h2 class="heading-block js-fadein"><span>選考の流れ</span></h2>
                         <ul class="selectionProcess-list">
-                            <li class="selectionProcess-item">
+                            <li class="selectionProcess-item js-fadein">
                                 <div class="title">
                                     <p class="ttl-number">STEP<span>1</span></p>
                                     <p class="ttl">エントリー</p>
@@ -242,7 +242,7 @@
                                     <p class="text">履歴書、障がい者手帳のコピーを<br class="sp-br"/>郵送いただきます。</p>
                                 </div>
                             </li>
-                            <li class="selectionProcess-item">
+                            <li class="selectionProcess-item js-fadein">
                                 <div class="title">
                                     <p class="ttl-number">STEP<span>2</span></p>
                                     <p class="ttl">WEBテスト（SPI3）</p>
@@ -251,7 +251,7 @@
                                     <p class="text">基礎能力確認のため、<br class="sp-br"/>SPIテストを受験いただきます。</p>
                                 </div>
                             </li>
-                            <li class="selectionProcess-item">
+                            <li class="selectionProcess-item js-fadein">
                                 <div class="title">
                                     <p class="ttl-number">STEP<span>3</span></p>
                                     <p class="ttl">一次面接</p>
@@ -260,7 +260,7 @@
                                     <p class="text">人事部担当者における個別面接でお話をお伺いします。<br/>（対面またはオンライン）</p>
                                 </div>
                             </li>
-                            <li class="selectionProcess-item">
+                            <li class="selectionProcess-item js-fadein">
                                 <div class="title">
                                     <p class="ttl-number">STEP<span>4</span></p>
                                     <p class="ttl">二次面接</p>
@@ -269,7 +269,7 @@
                                     <p class="text">人事部上席者による個別面接でお話を伺います。<br/>（対面またはオンライン）</p>
                                 </div>
                             </li>
-                            <li class="selectionProcess-item">
+                            <li class="selectionProcess-item js-fadein">
                                 <div class="title">
                                     <p class="ttl-number">STEP<span>5</span></p>
                                     <p class="ttl">最終面接</p>
@@ -278,7 +278,7 @@
                                     <p class="text">人事部長による面接です<br class="sp-br"/>（本社にて対面形式）<br/>支店での就労希望者は、支店での面接が実施されます。</p>
                                 </div>
                             </li>
-                            <li class="selectionProcess-item">
+                            <li class="selectionProcess-item js-fadein">
                                 <div class="title">
                                     <p class="ttl-number">STEP<span>6</span></p>
                                     <p class="ttl">内定・採用</p>

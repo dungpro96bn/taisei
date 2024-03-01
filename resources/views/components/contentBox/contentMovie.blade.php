@@ -1,12 +1,12 @@
 <div id="movie" class="contentMovie">
     <div class="inner">
         <div class="header-entry" data-aos="fade-up">
-            <h2 class="heading-block heading-center">
+            <h2 class="heading-block heading-center js-fadein">
                 <span class="ttl-ja">30秒で分かる大成建設</span>
             </h2>
         </div>
         <div class="sliderMovie">
-            <div id="movieList" class="swiper-wrapper">
+            <div id="movieList" class="swiper-wrapper js-fadein">
                 <div class="movieItem swiper-slide" data-aos="fade-up">
                     <a target="_blank" href="https://d1ekkmgtajtxvf.cloudfront.net/public_iframe_html/EHfkFHSFMJ5yowIxHxg1p240AxcFpKITHJgkFaV4MTMKZ2uPqJERnatkMP02Gy8lMGEPqT1eZxIEMSIwZwqcFQuFFwt3qwL4pGSFDIWnLzSmnIyDFR5GDmysnISlH3MSqKIDASAhITy4Dz1VZIAnJwuWrQqSomyEql4hYTu0qUOmBv8iMQSyqJIbqzWkMTZkowxhL2kiqJEzpz9hqP5hMKDiZQNkY2I2nKW5Y2cmY2I2nKW5YaOfLKyypv5gnJ4hnaZfYQNfZGpjAmp4AwHjAN%3D%3D/index.html" data-lity="data-lity">
                         <p class="movieImg">

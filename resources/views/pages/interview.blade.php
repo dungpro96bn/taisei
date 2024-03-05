@@ -168,10 +168,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="oneDay">
+                        <div class="oneDay js-fadein">
                             <h2 class="title js-fadein">1日の仕事</h2>
                             <div class="oneDay-content">
-                                <ul class="oneDay-list js-fadein">
+                                <ul class="oneDay-list">
                                     <li class="oneDay-item">
                                         <picture class="iconTime">
                                             <source srcset="{{asset('images/contentBox/interview/interview_oneday01_icon01_pc.png')}}">
@@ -213,7 +213,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <ul class="oneDay-list js-fadein">
+                                <ul class="oneDay-list">
                                     <li class="oneDay-item">
                                         <picture class="iconTime">
                                             <source srcset="{{asset('images/contentBox/interview/interview_oneday01_icon05_pc.png')}}">
@@ -371,10 +371,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="oneDay">
+                        <div class="oneDay  js-fadein">
                             <h2 class="title js-fadein">1日の仕事</h2>
                             <div class="oneDay-content">
-                                <ul class="oneDay-list js-fadein">
+                                <ul class="oneDay-list">
                                     <li class="oneDay-item">
                                         <picture class="iconTime">
                                             <source srcset="{{asset('images/contentBox/interview/interview_oneday01_icon01_pc.png')}}">
@@ -417,7 +417,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                <ul class="oneDay-list js-fadein">
+                                <ul class="oneDay-list">
                                     <li class="oneDay-item">
                                         <picture class="iconTime">
                                             <source srcset="{{asset('images/contentBox/interview/interview_oneday01_icon05_pc.png')}}">

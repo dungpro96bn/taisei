@@ -546,6 +546,9 @@ common
     #interview .interview-tab .interviewItem-tab .interviewTitle{
         padding: 13px 0 14px;
     }
+    #interview .interview-tab .interviewItem-tab a{
+        background: #003180;
+    }
     #interview .interview-tab .interviewItem-tab:before{
         width: 18px;
         height: 9px;

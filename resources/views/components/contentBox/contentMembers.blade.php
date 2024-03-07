@@ -4,7 +4,7 @@
             <h2 class="heading-block heading-center js-fadein">
                 <span class="ttl-ja">大成建設の取り組み</span>
             </h2>
-            <p class="subTitle js-fadein">当社では、<br class="sp-br"/>障がいがあっても少しでも働きやすいように様々な取り組みをしています。</p>
+            <p class="subTitle js-fadein">当社では、<br class="sp-br"/>障がいがあっても少しでも働きやすいように様々な取り組みをしています</p>
         </div>
         <div class="attempt-list">
             <div class="attempt-item js-fadein">
@@ -65,12 +65,12 @@
                 <picture>
                     <source media="(max-width: 767px)" srcset="{{asset('images/contentBox/top_image09_sp@2x.png 2x')}}">
                     <source media="(min-width: 768px)" srcset="{{asset('images/contentBox/top_image09_pc@2x.png 2x')}}">
-                    <img class="mvPicture" src="{{asset('images/contentBox/top_image09_pc@2x.png')}}" alt="">
+                    <img class="mvPicture" src="{{asset('images/contentBox/top_image09_pc@2x.png')}}" alt="The Valuabe 500">
                 </picture>
             </div>
             <div class="textContent">
                 <p class="text">大成建設は、世界500社のビジネスリーダーが障がい者が社会・ビジネス・経済における潜在的な価値を発揮できるような改革を起こすことを目的とした世界的なネットワーク組織である「The Valuable 500」に参加しています。</p>
-                <a class="the-valuabe-link" href="#">The Valuabe 500</a>
+                <a class="the-valuabe-link" target="_blank" href="https://www.thevaluable500.com/companies/taisei-corporation">The Valuabe 500</a>
             </div>
         </div>
     </div>

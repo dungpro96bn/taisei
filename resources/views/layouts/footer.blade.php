@@ -35,7 +35,7 @@ if(isset($frontendSettings['footer']['corpInfo']['type']) || isset($frontendSett
     <footer id="footer" class="footer">
         <div id="pageTop" class="pageTop">
             <a href="#" class="pageTopAnchor">
-                <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+                <svg class="pc-br" xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
                     <g id="pagetop_btn_pc" style="isolation: isolate">
                         <rect id="Rectangle_1031" data-name="Rectangle 1031" width="65" height="65" transform="translate(0 0)" fill="#003180"/>
                         <g id="装飾" transform="translate(752 133.769)">
@@ -52,8 +52,14 @@ if(isset($frontendSettings['footer']['corpInfo']['type']) || isset($frontendSett
                         </g>
                         <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M18,20.679l8.93-8.937a1.681,1.681,0,0,1,2.384,0,1.7,1.7,0,0,1,0,2.391L19.2,24.258a1.685,1.685,0,0,1-2.327.049L6.68,14.14a1.688,1.688,0,0,1,2.384-2.391Z" transform="translate(50.496 34.747) rotate(180)" fill="#fff"/>
                         <text id="PAGE_TOP" data-name="PAGE
-TOP" transform="translate(33 40)" fill="#fff" font-size="14" font-family="FuturaPT-Demi, Futura PT" font-weight="300"><tspan x="-16.632" y="0">PAGE</tspan><tspan x="-12.229" y="16">TOP</tspan></text>
+TOP" transform="translate(33 40)" fill="#fff" font-size="14" font-family="futura-pt, sans-serif" font-weight="600"><tspan x="-16.632" y="0">PAGE</tspan><tspan x="-12.229" y="16">TOP</tspan></text>
                     </g>
+                </svg>
+                <svg id="pagetop_btn_sp" class="sp-br" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+                    <rect id="Rectangle_1031" data-name="Rectangle 1031" width="100" height="100" fill="#5371af"/>
+                    <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M22.193,23.82l12.1-11.913a2.3,2.3,0,0,1,3.23,0,2.243,2.243,0,0,1,0,3.187l-13.71,13.5a2.31,2.31,0,0,1-3.154.066L6.854,15.1a2.237,2.237,0,0,1,0-3.187,2.3,2.3,0,0,1,3.23,0Z" transform="translate(72.188 41) rotate(180)" fill="#fff"/>
+                    <text id="PAGE_TOP" data-name="PAGE
+TOP" transform="translate(50 59)" fill="#fff" font-size="22" font-family="futura-pt, sans-serif" font-weight="600"><tspan x="-26.136" y="0">PAGE</tspan><tspan x="-19.217" y="26">TOP</tspan></text>
                 </svg>
             </a>
         </div><!-- #pageTop -->

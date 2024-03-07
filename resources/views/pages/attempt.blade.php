@@ -81,7 +81,7 @@
 
                 <div id="attempt-01" class="attemptContent">
                     <div class="inner">
-                        <h2 class="heading-block js-fadein"><span>聴覚障害</span></h2>
+                        <h2 class="heading-block js-fadein"><span>聴覚障がい</span></h2>
                         <div class="attemptContent-box js-fadein">
                             <div class="content">
                                 <ul class="list-textCheck">
@@ -125,7 +125,7 @@
                             <div class="messageBox">
                                 <div class="messageInfo js-fadein">
                                     <h2 class="title">社員からのメッセージ</h2>
-                                    <p class="text">聴覚障がいと一口に言っても、人によって得意・不得意が様々です。<br/>
+                                    <p class="text">聴覚障がいとひと口に言っても、人によって得意・不得意が様々です。<br/>
                                         採用面接の際に、その点についても丁寧に質問してもらい、働くに際して不安<br class="sp-br"/>だったことや不得意だと考えていることなどについて説明することができました。<br/>
                                         複数の音声文字化ツールを会社で法人契約してくれているので、場面によって<br class="sp-br"/>ツールを使い分けることが可能です。</p>
                                 </div>
@@ -284,7 +284,7 @@
                                 <div class="messageInfo js-fadein">
                                     <h2 class="title">臨床心理士の先生からの<br class="sp-br"/>メッセージ</h2>
                                     <p class="text">2016年から障がいのある社員の方の定着支援をお手伝いしています。<br/>一般的に、聴覚障がいのある方や精神・発達障がいのある方は働きづらさを感じることが多いと言われていますので、人事部の担当者と共に面談を通じて、当事者からは会社に言いにくい悩みをお聞きし、上司の方からは本人への指導方法などについてお話を伺い、少しでも働きやすい環境を整えられるよう対応しています。</p>
-                                    <p class="text-note">キューブ・インテグレーション株式会社 <br class="sp-br"/>諏訪裕子先生</p>
+                                    <p class="text-note">キューブ・インテグレーション株式会社 諏訪裕子先生</p>
                                 </div>
                                 <div class="messageImage js-fadein">
                                     <picture>

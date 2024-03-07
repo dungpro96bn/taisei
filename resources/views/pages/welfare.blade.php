@@ -266,7 +266,7 @@
                                     <p class="ttl">二次面接</p>
                                 </div>
                                 <div class="stepInfo">
-                                    <p class="text">人事部上席者による個別面接でお話を伺います。<br/>（対面またはオンライン）</p>
+                                    <p class="text">人事部上席者による個別面接でお話をお伺います。<br/>（対面またはオンライン）</p>
                                 </div>
                             </li>
                             <li class="selectionProcess-item js-fadein">

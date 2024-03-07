@@ -179,7 +179,7 @@
                                         </picture>
                                         <div class="oneDay-box">
                                             <p class="title-time"><span>08:30</span>出社</p>
-                                            <p class="text">メールや社内からの連絡の確認。<br/>始業とき間は8:45ですが少し余裕をもって出社しています。</p>
+                                            <p class="text">メールや社内からの連絡の確認。<br/>始業時間は8:45ですが少し余裕をもって出社しています。</p>
                                         </div>
                                     </li>
                                     <li class="oneDay-item">
@@ -391,7 +391,7 @@
                                         </picture>
                                         <div class="oneDay-box">
                                             <p class="title-time"><span>09:30</span>ミーティング</p>
-                                            <p class="text">チームメンバーたちと今日のタスクを確認し、新たな業務や分担などを話し合い、確認して各自業務に入ります。</p>
+                                            <p class="text">チームメンバーたちと今日のタスクを確認し新たな業務や分担などを話し合い確認して各自業務に入ります。</p>
                                         </div>
                                     </li>
                                     <li class="oneDay-item">
@@ -401,7 +401,7 @@
                                         </picture>
                                         <div class="oneDay-box">
                                             <p class="title-time"><span>12:00</span>お昼休憩</p>
-                                            <p class="text">美味しいお店を探して、いつも先輩や同期と楽しくお話しながらランチしています。<br/>とき間があるときは、本屋に行ってリフレッシュしています。</p>
+                                            <p class="text">美味しいお店を探して、いつも先輩や同期と楽しくお話しながらランチしています。<br/>時間があるときは、本屋に行ってリフレッシュしています。</p>
                                         </div>
                                     </li>
                                     <li class="oneDay-item">
@@ -443,7 +443,7 @@
                                         </picture>
                                         <div class="oneDay-box">
                                             <p class="title-time"><span>17:30</span>退勤</p>
-                                            <p class="text">とき々残業することもありますが、基本的に定ときに仕事を終わらせて、充実したプライベートとき間をたっぷり過ごしています。</p>
+                                            <p class="text">とき々残業することもありますが、基本的に定ときに仕事を終わらせて、充実したプライベート時間をたっぷり過ごしています。</p>
                                         </div>
                                     </li>
                                     <li class="oneDay-item">

@@ -381,7 +381,7 @@
                                         </picture>
                                         <div class="oneDay-box">
                                             <p class="title-time"><span>08:30</span>出社</p>
-                                            <p class="text">余裕をもって業務開始の10～15分前に出社。<br/>机の回りを綺麗して、お茶を用意し、業務モチベーションをあげるよ、うにしています。</p>
+                                            <p class="text">余裕をもって業務開始の10～15分前に出社。<br/>机の回りを綺麗してお茶を用意し、業務モチベーションをあげるよ、うにしています。</p>
                                         </div>
                                     </li>
                                     <li class="oneDay-item">
@@ -391,7 +391,7 @@
                                         </picture>
                                         <div class="oneDay-box">
                                             <p class="title-time"><span>09:30</span>ミーティング</p>
-                                            <p class="text">チームメンバーたちと今日のタスクを確認し新たな業務や分担などを話し合い確認して各自業務に入ります。</p>
+                                            <p class="text">チームメンバーたちと今日のタスクを確認し、新たな業務や分担などを話し合い、確認して各自業務入ります。</p>
                                         </div>
                                     </li>
                                     <li class="oneDay-item">

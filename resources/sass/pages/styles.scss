@@ -41,7 +41,7 @@
 
 .js-fadein {
     opacity: 0;
-    transform: translate(0, 120px);
+    transform: translate(0, 20px);
     transition-property: opacity, transform;
     transition-duration: 1s;
 }
